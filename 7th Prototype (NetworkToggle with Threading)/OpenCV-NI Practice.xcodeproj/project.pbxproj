@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D31E9BC718A8602700FEB03F /* libopencv_core.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31E9BC218A8602700FEB03F /* libopencv_core.2.4.8.dylib */; };
+		D31E9BC818A8602700FEB03F /* libopencv_gpu.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31E9BC318A8602700FEB03F /* libopencv_gpu.2.4.8.dylib */; };
+		D31E9BC918A8602700FEB03F /* libopencv_highgui.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31E9BC418A8602700FEB03F /* libopencv_highgui.2.4.8.dylib */; };
+		D31E9BCA18A8602700FEB03F /* libopencv_imgproc.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31E9BC518A8602700FEB03F /* libopencv_imgproc.2.4.8.dylib */; };
+		D33B3738189717FC0052FE3A /* libfreenect_cv.0.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D33B3737189717FC0052FE3A /* libfreenect_cv.0.2.0.dylib */; };
+		D34985B41889E0310082D1C9 /* libfreenect_sync.0.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D34985B11889E0310082D1C9 /* libfreenect_sync.0.2.0.dylib */; };
+		D34985B51889E0310082D1C9 /* libfreenect.0.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D34985B21889E0310082D1C9 /* libfreenect.0.2.0.dylib */; };
+		D363A302189705020076791C /* QtCore in Frameworks */ = {isa = PBXBuildFile; fileRef = D363A300189705020076791C /* QtCore */; };
+		D363A303189705020076791C /* QtNetwork in Frameworks */ = {isa = PBXBuildFile; fileRef = D363A301189705020076791C /* QtNetwork */; };
+		D39599651867461B006ED2F8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D39599641867461B006ED2F8 /* main.cpp */; };
+		D39599671867461B006ED2F8 /* OpenCV_NI_Practice.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D39599661867461B006ED2F8 /* OpenCV_NI_Practice.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D395995F1867461B006ED2F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D39599671867461B006ED2F8 /* OpenCV_NI_Practice.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D31E9BC218A8602700FEB03F /* libopencv_core.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.8.dylib; path = ../../../../../../../opt/local/lib/libopencv_core.2.4.8.dylib; sourceTree = "<group>"; };
+		D31E9BC318A8602700FEB03F /* libopencv_gpu.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_gpu.2.4.8.dylib; path = ../../../../../../../opt/local/lib/libopencv_gpu.2.4.8.dylib; sourceTree = "<group>"; };
+		D31E9BC418A8602700FEB03F /* libopencv_highgui.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.8.dylib; path = ../../../../../../../opt/local/lib/libopencv_highgui.2.4.8.dylib; sourceTree = "<group>"; };
+		D31E9BC518A8602700FEB03F /* libopencv_imgproc.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.8.dylib; path = ../../../../../../../opt/local/lib/libopencv_imgproc.2.4.8.dylib; sourceTree = "<group>"; };
+		D33B3737189717FC0052FE3A /* libfreenect_cv.0.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect_cv.0.2.0.dylib; path = ../../../../../../../usr/local/lib/libfreenect_cv.0.2.0.dylib; sourceTree = "<group>"; };
+		D34985B11889E0310082D1C9 /* libfreenect_sync.0.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect_sync.0.2.0.dylib; path = ../../../../../../../usr/local/lib/libfreenect_sync.0.2.0.dylib; sourceTree = "<group>"; };
+		D34985B21889E0310082D1C9 /* libfreenect.0.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect.0.2.0.dylib; path = ../../../../../../../usr/local/lib/libfreenect.0.2.0.dylib; sourceTree = "<group>"; };
+		D35E4F36189F0442002BF351 /* PreRunSettings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreRunSettings.txt; sourceTree = SOURCE_ROOT; };
+		D35E4F37189F0495002BF351 /* HumanConversion.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HumanConversion.txt; sourceTree = SOURCE_ROOT; };
+		D363A300189705020076791C /* QtCore */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = QtCore; path = ../../../../../../../opt/local/Library/Frameworks/QtCore.framework/Versions/4/QtCore; sourceTree = "<group>"; };
+		D363A301189705020076791C /* QtNetwork */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = QtNetwork; path = ../../../../../../../opt/local/Library/Frameworks/QtNetwork.framework/Versions/4/QtNetwork; sourceTree = "<group>"; };
+		D39599611867461B006ED2F8 /* OpenCV-NI Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OpenCV-NI Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39599641867461B006ED2F8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D39599661867461B006ED2F8 /* OpenCV_NI_Practice.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenCV_NI_Practice.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D395995E1867461B006ED2F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D363A303189705020076791C /* QtNetwork in Frameworks */,
+				D31E9BC718A8602700FEB03F /* libopencv_core.2.4.8.dylib in Frameworks */,
+				D33B3738189717FC0052FE3A /* libfreenect_cv.0.2.0.dylib in Frameworks */,
+				D31E9BC918A8602700FEB03F /* libopencv_highgui.2.4.8.dylib in Frameworks */,
+				D31E9BCA18A8602700FEB03F /* libopencv_imgproc.2.4.8.dylib in Frameworks */,
+				D363A302189705020076791C /* QtCore in Frameworks */,
+				D34985B41889E0310082D1C9 /* libfreenect_sync.0.2.0.dylib in Frameworks */,
+				D31E9BC818A8602700FEB03F /* libopencv_gpu.2.4.8.dylib in Frameworks */,
+				D34985B51889E0310082D1C9 /* libfreenect.0.2.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39599581867461B006ED2F8 = {
+			isa = PBXGroup;
+			children = (
+				D395996D1867462B006ED2F8 /* LibraryReferences */,
+				D39599631867461B006ED2F8 /* OpenCV-NI Practice */,
+				D39599621867461B006ED2F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D39599621867461B006ED2F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39599611867461B006ED2F8 /* OpenCV-NI Practice */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39599631867461B006ED2F8 /* OpenCV-NI Practice */ = {
+			isa = PBXGroup;
+			children = (
+				D39599641867461B006ED2F8 /* main.cpp */,
+				D39599661867461B006ED2F8 /* OpenCV_NI_Practice.1 */,
+				D35E4F36189F0442002BF351 /* PreRunSettings.txt */,
+				D35E4F37189F0495002BF351 /* HumanConversion.txt */,
+			);
+			path = "OpenCV-NI Practice";
+			sourceTree = "<group>";
+		};
+		D395996D1867462B006ED2F8 /* LibraryReferences */ = {
+			isa = PBXGroup;
+			children = (
+				D31E9BC218A8602700FEB03F /* libopencv_core.2.4.8.dylib */,
+				D31E9BC318A8602700FEB03F /* libopencv_gpu.2.4.8.dylib */,
+				D31E9BC418A8602700FEB03F /* libopencv_highgui.2.4.8.dylib */,
+				D31E9BC518A8602700FEB03F /* libopencv_imgproc.2.4.8.dylib */,
+				D363A300189705020076791C /* QtCore */,
+				D363A301189705020076791C /* QtNetwork */,
+				D33B3737189717FC0052FE3A /* libfreenect_cv.0.2.0.dylib */,
+				D34985B11889E0310082D1C9 /* libfreenect_sync.0.2.0.dylib */,
+				D34985B21889E0310082D1C9 /* libfreenect.0.2.0.dylib */,
+			);
+			name = LibraryReferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39599601867461B006ED2F8 /* OpenCV-NI Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D395996A1867461B006ED2F8 /* Build configuration list for PBXNativeTarget "OpenCV-NI Practice" */;
+			buildPhases = (
+				D395995D1867461B006ED2F8 /* Sources */,
+				D395995E1867461B006ED2F8 /* Frameworks */,
+				D395995F1867461B006ED2F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenCV-NI Practice";
+			productName = "OpenCV-NI Practice";
+			productReference = D39599611867461B006ED2F8 /* OpenCV-NI Practice */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39599591867461B006ED2F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "O'Fallon Township High School";
+			};
+			buildConfigurationList = D395995C1867461B006ED2F8 /* Build configuration list for PBXProject "OpenCV-NI Practice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D39599581867461B006ED2F8;
+			productRefGroup = D39599621867461B006ED2F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39599601867461B006ED2F8 /* OpenCV-NI Practice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D395995D1867461B006ED2F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39599651867461B006ED2F8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D39599681867461B006ED2F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D39599691867461B006ED2F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D395996B1867461B006ED2F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/opt/local/include,
+					/usr/local/include/libfreenect,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+					/usr/local/lib,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4,
+					/opt/local/Library/Frameworks/QtNetwork.framework/Versions/4,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D395996C1867461B006ED2F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/opt/local/include,
+					/usr/local/include/libfreenect,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+					/usr/local/lib,
+					/opt/local/Library/Frameworks/QtCore.framework/Versions/4,
+					/opt/local/Library/Frameworks/QtNetwork.framework/Versions/4,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D395995C1867461B006ED2F8 /* Build configuration list for PBXProject "OpenCV-NI Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39599681867461B006ED2F8 /* Debug */,
+				D39599691867461B006ED2F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D395996A1867461B006ED2F8 /* Build configuration list for PBXNativeTarget "OpenCV-NI Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D395996B1867461B006ED2F8 /* Debug */,
+				D395996C1867461B006ED2F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39599591867461B006ED2F8 /* Project object */;
+}

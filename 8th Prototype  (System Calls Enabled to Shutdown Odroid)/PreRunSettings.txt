@@ -1,0 +1,35 @@
+192.168.1.126
+80
+1
+7755
+Stop_Odroid 10
+0
+1
+0 1 1200
+1
+400 3000
+0.020 0.30
+10
+50 50
+0
+1 sudo_poweroff
+
+
+
+
+
+10.12.8.2               Target IP Address (C-Rio)
+80                      Target Port Number (C-Rio)
+1                       Enable Networking (Both Ways)?
+7755                    Host Port Number (Odroid)
+Stop_Odroid 10          LabView Shutdown String && time in ms between packet reaches
+0                       Do you want a Textual Interface?
+0                       Would you like a GUI?
+0 1 1200                Enable Demo Mode for Presentation Purposes?
+1                       Should Original Image be Pyramid Blurred before sent for processing?
+3000 400                Max Area Limit && Min Area Limit
+0.020 0.30              Polygon Approximation Accuracy && Max Angle Limit
+10                      Remove Squares with Centers less than ___ pixels apart
+50 50                   Canny Threshold lower limit && # of threshold iterations (0<N<256)
+0                       After ___ rendered frames, shut down the program (0=infinite)
+1 sudo_poweroff    	When the program ends run the following SHELL command
